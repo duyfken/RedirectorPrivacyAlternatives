@@ -1,0 +1,180 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2023-01-21T14:07:49.863Z",
+    "redirects": [
+        {
+            "description": "Google to Whoogle (privacydev.net instance)",
+            "exampleUrl": "https://www.google.com.au/search?q=hi",
+            "exampleResult": "https://whoogle.privacydev.net/search?q=hi",
+            "error": null,
+            "includePattern": "https?:\\/\\/(((?:www|m)\\.)?google.).*\\/(search\\?q=([\\w\\-]+)(\\S+))?$",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://whoogle.privacydev.net/$3",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "IMDb to libremdb (Official instance)",
+            "exampleUrl": "https://www.imdb.com/title/tt4654462/",
+            "exampleResult": "https://libremdb.iket.me/title/tt4654462/",
+            "error": null,
+            "includePattern": "https?:\\/\\/(www\\.)?imdb\\.com\\/title/(.*)",
+            "excludePattern": "",
+            "patternDesc": "Redirect IMDB title listings to libremdb. Other IMDB listings are not redirected yet as they are not yet implemented by libremdb.",
+            "redirectUrl": "https://libremdb.iket.me/title/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Imgur to Rimgo (TotalDarkness instance)",
+            "exampleUrl": "https://imgur.com/a/H8M4rcp",
+            "exampleResult": "https://rimgo.totaldarkness.net/a/H8M4rcp",
+            "error": null,
+            "includePattern": "^https?://i?.?imgur.com(/.*)?$",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://rimgo.totaldarkness.net$1",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "image"
+            ]
+        },
+        {
+            "description": "Medium to Scribe (Official instance)",
+            "exampleUrl": "https://medium.com/@RSilvaEID100/bait-and-switch-what-you-need-to-know-about-rick-rolling-829c0ea20b46",
+            "exampleResult": "https://scribe.rip/@RSilvaEID100/bait-and-switch-what-you-need-to-know-about-rick-rolling-829c0ea20b46",
+            "error": null,
+            "includePattern": "^https?://(?:.*\\.)*(?<!(link\\.|cdn\\-images\\-\\d+\\.))medium\\.com(/.*)?$",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://scribe.rip$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "sub_frame"
+            ]
+        },
+        {
+            "description": "Odysee to Librarian (Esmail EL BoB instance)",
+            "exampleUrl": "https://odysee.com/@ForeverHits:2/Rick-Astley---Never-Gonna-Give-You-Up-%28Official-Music-Video%29:e",
+            "exampleResult": "https://librarian.esmailelbob.xyz/@ForeverHits:2/Rick-Astley---Never-Gonna-Give-You-Up-%28Official-Music-Video%29:e",
+            "error": null,
+            "includePattern": "https://odysee.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://librarian.esmailelbob.xyz/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Quora to Quetre (Official instance)",
+            "exampleUrl": "https://www.quora.com/What-is-Linux-4",
+            "exampleResult": "https://quetre.iket.me/What-is-Linux-4",
+            "error": null,
+            "includePattern": "https?:\\/\\/(www\\.)?quora\\.com\\/([^\\?]*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://quetre.iket.me/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Reddit to Libreddit (Official instance)",
+            "exampleUrl": "https://i.redd.it/r/rickroll/comments/i4ulh0/a_long_list_of_rick_roll_links/",
+            "exampleResult": "https://libreddit.spike.codes/r/rickroll/comments/i4ulh0/a_long_list_of_rick_roll_links/",
+            "error": null,
+            "includePattern": "^https?:\\/{2}(www\\.|old\\.|np\\.|new\\.|amp\\.|)reddit\\.com\\/([^\\?]*)|^https?:\\/{2}(i\\.|v\\.|preview\\.)redd\\.it\\/([^\\?]*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://libreddit.spike.codes/$2$4",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "TikTok to ProxiTok (Official instance)",
+            "exampleUrl": "https://www.tiktok.com/@rickastleyofficial/video/6890858524092402946",
+            "exampleResult": "https://proxitok.pabloferreiro.es/@rickastleyofficial/video/6890858524092402946",
+            "error": null,
+            "includePattern": "(.*//.*)(tiktok.com)(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://proxitok.pabloferreiro.es$3",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Twitter to Nitter (Official instance)",
+            "exampleUrl": "https://twitter.com/rickastley/status/1552237188494008321",
+            "exampleResult": "https://nitter.net/rickastley/status/1552237188494008321",
+            "error": null,
+            "includePattern": "^https?:\\/{2}(www\\.|mobile\\.|)twitter\\.com\\/([^\\?]*)|^https?:\\/{2}(pbs\\.|video\\.|)twimg\\.com\\/([^\\?]*)|^https?:\\/{2}platform\\.twitter\\.com\\/embed\\/([^\\?]*)",
+            "excludePattern": "",
+            "patternDesc": "Includes embeds - Disable iframes to disable embeds",
+            "redirectUrl": "https://nitter.net/$1$2$3$4$5",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "sub_frame"
+            ]
+        },
+        {
+            "description": "Youtube domains (all) to Piped (Official instance)",
+            "exampleUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "exampleResult": "https://piped.video/watch?v=dQw4w9WgXcQ",
+            "error": null,
+            "includePattern": "^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube(-nocookie)?\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$",
+            "excludePattern": "",
+            "patternDesc": "Includes embeds - Disable iframes to disable embeds",
+            "redirectUrl": "https://piped.video$5$6$7",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "sub_frame"
+            ]
+        }
+    ]
+}

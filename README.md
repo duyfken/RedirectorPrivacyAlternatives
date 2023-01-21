@@ -1,6 +1,8 @@
 # Redirector Privacy Alternatives
 Redirect Big Tech links to privacy aware alternatives using Redirector rules
 
+Import [Redirector.json](https://github.com/duyfken/RedirectorPrivacyAlternatives/blob/main/Redirector.json) into the [Redirector extension](https://github.com/einaregilsson/Redirector) in your Firefox or Chromium based browser to help maintain some of your privacy while enjoying content online.
+
 | Original Website  | Privacy alternative used | Alternative instance used
 | ------------- | ------------- | ------------- |
 | Google Search | [Whoogle](https://github.com/benbusby/whoogle-search)  | https://whoogle.privacydev.net/ |

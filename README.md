@@ -8,6 +8,7 @@ Import [Redirector.json](https://github.com/duyfken/RedirectorPrivacyAlternative
 | Google Search | [Whoogle](https://github.com/benbusby/whoogle-search)  | https://whoogle.privacydev.net/ |
 | IMDb | [libremdb](https://github.com/zyachel/libremdb)  | [Official Instance](https://libremdb.iket.me/) |
 | Imgur | [Rimgo](https://codeberg.org/video-prize-ranch/rimgo)  | https://rimgo.totaldarkness.net/ |
+| Instagram | [ImgInn](https://imginn.com/) | N/A |
 | Medium | [Scribe](https://sr.ht/~edwardloveall/Scribe/)  | [Official Instance](https://scribe.rip/) |
 | Odysee | [Librarian](https://codeberg.org/librarian/librarian)  | https://librarian.esmailelbob.xyz |
 | Quora | [Quetre](https://github.com/zyachel/quetre)  | [Official Instance](https://quetre.iket.me/) |

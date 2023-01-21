@@ -55,6 +55,40 @@
             ]
         },
         {
+            "description": "Instagram Image to ImgInn",
+            "exampleUrl": "https://www.instagram.com/p/CnhlNzNIavJ/",
+            "exampleResult": "https://imginn.com/p/CnhlNzNIavJ",
+            "error": null,
+            "includePattern": "(?<!^https\\:\\/\\/www\\.google\\.com\\/imgres\\?imgurl.*)(?:https?\\:\\/\\/)?(?:www\\.)?(?:instagram\\.com|instagr\\.am|next\\=)(?:(?:\\/|%2f)p|(?:\\/|%2f)reel)(?:\\/|%2f)([a-zA-Z._0-9-]+)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://imginn.com/p/$1",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Instagram Profile to ImgInn",
+            "exampleUrl": "https://www.instagram.com/officialrickastley/",
+            "exampleResult": "https://imginn.com/officialrickastley",
+            "error": null,
+            "includePattern": "(?<!^https\\:\\/\\/www\\.google\\.com\\/imgres\\?imgurl.*)(?:https?\\:\\/\\/)?(?:www\\.)?(?<!help\\.|api\\.|business\\.|about\\.|lookaside\\.)(?:instagram\\.com|instagr\\.am|next=)(?:\\/|%2f)(?!accounts|explore|developer|reel)([a-zA-Z._0-9]{3,})",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://imginn.com/$1",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
             "description": "Medium to Scribe (Official instance)",
             "exampleUrl": "https://medium.com/@RSilvaEID100/bait-and-switch-what-you-need-to-know-about-rick-rolling-829c0ea20b46",
             "exampleResult": "https://scribe.rip/@RSilvaEID100/bait-and-switch-what-you-need-to-know-about-rick-rolling-829c0ea20b46",

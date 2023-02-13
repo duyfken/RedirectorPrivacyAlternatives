@@ -185,7 +185,7 @@
             "redirectUrl": "https://nitter.net/$1$2$3$4$5",
             "patternType": "R",
             "processMatches": "noProcessing",
-            "disabled": true,
+            "disabled": false,
             "grouped": false,
             "appliesTo": [
                 "main_frame",
@@ -193,14 +193,14 @@
             ]
         },
         {
-            "description": "Youtube domains (all) to Piped (Official instance)",
+            "description": "Youtube domains (all) to Piped (il.ax instance)",
             "exampleUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "exampleResult": "https://piped.video/watch?v=dQw4w9WgXcQ",
+            "exampleResult": "https://il.ax/watch?v=dQw4w9WgXcQ",
             "error": null,
             "includePattern": "^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube(-nocookie)?\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$",
             "excludePattern": "",
             "patternDesc": "Includes embeds - Disable iframes to disable embeds",
-            "redirectUrl": "https://piped.video$5$6$7",
+            "redirectUrl": "https://il.ax$5$6$7",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,

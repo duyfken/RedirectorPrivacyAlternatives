@@ -3,14 +3,99 @@
     "createdAt": "2023-01-21T14:07:49.863Z",
     "redirects": [
         {
-            "description": "Google to Whoogle (privacydev.net instance)",
+            "description": "Fandom to BreezeWiki (Vern.cc instance)",
+            "exampleUrl": "https://rick-astley.fandom.com/wiki/Never_Gonna_Give_You_Up",
+            "exampleResult": "https://bw.vern.cc/rick-astley/wiki/Never_Gonna_Give_You_Up",
+            "error": null,
+            "includePattern": "https://*.fandom.com/wiki/*",
+            "excludePattern": "https://www.fandom.com/*",
+            "patternDesc": "",
+            "redirectUrl": "https://bw.vern.cc/$1/wiki/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+          {
+            "description": "Genius to dumb (Vern.cc instance)",
+            "exampleUrl": "https://genius.com/Rick-astley-never-gonna-give-you-up-lyrics",
+            "exampleResult": "https://db.vern.cc/Rick-astley-never-gonna-give-you-up-lyrics",
+            "error": null,
+            "includePattern": "https?:\\/\\/(www\\.)?genius\\.com\\/(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://db.vern.cc/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Goodreads pages to BiblioReads (Official instance)",
+            "exampleUrl": "https://www.goodreads.com/book/show/53396951-rick-astley-therapeutic-coloring-book",
+            "exampleResult": "https://biblioreads.netlify.app/book/show/53396951-rick-astley-therapeutic-coloring-book",
+            "error": null,
+            "includePattern": "^(?:https?://)www\\.goodreads\\.com/(book|work|author|series|quotes)(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://biblioreads.netlify.app/$1$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Goodreads searches to BiblioReads - Rule 1 (Official instance)",
+            "exampleUrl": "https://www.goodreads.com/search?q=rick+astley",
+            "exampleResult": "https://biblioreads.netlify.app/search/rick+astley",
+            "error": null,
+            "includePattern": "^https:\\/\\/www\\.goodreads\\.com\\/search\\?q=(.*)$",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://biblioreads.netlify.app/search/$1",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Goodreads searches to BiblioReads - Rule 2 (Official instance)",
+            "exampleUrl": "https://www.goodreads.com/search?utf8=%E2%9C%93&q=rick+astley&search_type=books",
+            "exampleResult": "https://biblioreads.netlify.app/search/rick+astley&search_type=books",
+            "error": null,
+            "includePattern": "^https:\\/\\/www\\.goodreads\\.com\\/search\\?utf8=%E2%9C%93&q=(.*)$",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://biblioreads.netlify.app/search/$1",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Google to Whoogle (Vern.cc instance)",
             "exampleUrl": "https://www.google.com.au/search?q=hi",
-            "exampleResult": "https://whoogle.privacydev.net/search?q=hi",
+            "exampleResult": "https://wg.vern.cc/search?q=hi",
             "error": null,
             "includePattern": "https?:\\/\\/(((?:www|m)\\.)?google.).*\\/(search\\?q=([\\w\\-]+)(\\S+))?$",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://whoogle.privacydev.net/$3",
+            "redirectUrl": "https://wg.vern.cc/$3",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -26,8 +111,8 @@
             "error": null,
             "includePattern": "https?:\\/\\/(www\\.)?imdb\\.com\\/title/(.*)",
             "excludePattern": "",
-            "patternDesc": "Redirect IMDB title listings to libremdb. Other IMDB listings are not redirected yet as they are not yet implemented by libremdb.",
-            "redirectUrl": "https://libremdb.iket.me/title/$2",
+            "patternDesc": "",
+            "redirectUrl": "https://libremdb.iket.me/$2",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -107,14 +192,14 @@
             ]
         },
         {
-            "description": "Odysee to Librarian (Esmail EL BoB instance)",
+            "description": "Odysee to Librarian (Vern.cc instance)",
             "exampleUrl": "https://odysee.com/@ForeverHits:2/Rick-Astley---Never-Gonna-Give-You-Up-%28Official-Music-Video%29:e",
-            "exampleResult": "https://librarian.esmailelbob.xyz/@ForeverHits:2/Rick-Astley---Never-Gonna-Give-You-Up-%28Official-Music-Video%29:e",
+            "exampleResult": "https://lbry.vern.cc/@ForeverHits:2/Rick-Astley---Never-Gonna-Give-You-Up-%28Official-Music-Video%29:e",
             "error": null,
             "includePattern": "https://odysee.com/*",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://librarian.esmailelbob.xyz/$1",
+            "redirectUrl": "https://lbry.vern.cc/$1",
             "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -158,20 +243,38 @@
             ]
         },
         {
-            "description": "TikTok to ProxiTok (Official instance)",
-            "exampleUrl": "https://www.tiktok.com/@rickastleyofficial/video/6890858524092402946",
-            "exampleResult": "https://cringe.whatever.social/@rickastleyofficial/video/6890858524092402946",
+            "description": "StackOverflow to AnonymousOverflow (Vern.cc instance)",
+            "exampleUrl": "https://stackoverflow.com/questions/43743250/using-libsodium-xchacha20-poly1305-for-large-files",
+            "exampleResult": "https://ao.vern.cc/questions/43743250/using-libsodium-xchacha20-poly1305-for-large-files",
             "error": null,
-            "includePattern": "(.*//.*)(tiktok.com)(.*)",
+            "includePattern": "https://stackoverflow.com/*",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://cringe.whatever.social$3",
-            "patternType": "R",
+            "redirectUrl": "https://ao.vern.cc/$1",
+            "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
             "grouped": false,
             "appliesTo": [
                 "main_frame"
+            ]
+        },
+        {
+            "description": "TikTok to ProxiTok (Vern.cc instance)",
+            "exampleUrl": "https://www.tiktok.com/@rickastleyofficial/video/6890858524092402946",
+            "exampleResult": "https://tt.vern.cc/@rickastleyofficial/video/6890858524092402946",
+            "error": null,
+            "includePattern": "(.*//.*)(tiktok.com)(.*)",
+            "excludePattern": "",
+            "patternDesc": "Includes embeds - Disable iframes to disable embeds",
+            "redirectUrl": "https://tt.vern.cc$3",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "sub_frame"
             ]
         },
         {
@@ -193,14 +296,31 @@
             ]
         },
         {
-            "description": "Youtube domains (all) to Piped (il.ax instance)",
+            "description": "Urban Dictionary to Rural Dictionary (Vern.cc instance)",
+            "exampleUrl": "https://www.urbandictionary.com/define.php?term=Rick%20Astley",
+            "exampleResult": "https://rd.vern.cc/define.php?term=Rick%20Astley",
+            "error": null,
+            "includePattern": "https://www.urbandictionary.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://rd.vern.cc/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Youtube to Piped (Official instance)",
             "exampleUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "exampleResult": "https://il.ax/watch?v=dQw4w9WgXcQ",
+            "exampleResult": "https://piped.video/watch?v=dQw4w9WgXcQ",
             "error": null,
             "includePattern": "^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube(-nocookie)?\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$",
             "excludePattern": "",
-            "patternDesc": "Includes embeds - Disable iframes to disable embeds",
-            "redirectUrl": "https://il.ax$5$6$7",
+            "patternDesc": "Includes embeds - Disable iframes to disable embeds - Choose backend instance in on-site Preferences (il.ax recommended for reliability, see status.piped.video)",
+            "redirectUrl": "https://piped.video$5$6$7",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -208,6 +328,23 @@
             "appliesTo": [
                 "main_frame",
                 "sub_frame"
+            ]
+        },
+        {
+            "description": "Youtube Music to Beatbump (Official instance)",
+            "exampleUrl": "https://music.youtube.com/channel/UCwZEU0wAwIyZb4x5G_KJp2w",
+            "exampleResult": "https://beatbump.io/channel/UCwZEU0wAwIyZb4x5G_KJp2w",
+            "error": null,
+            "includePattern": "https://music.youtube.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://beatbump.io/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
             ]
         }
     ]

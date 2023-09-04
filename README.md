@@ -1,7 +1,7 @@
 # Redirector Privacy Alternatives
 Redirect Big Tech links to privacy aware alternatives using Redirector rules.
 
-These Redirector Privacy Alternatives are derived from the list of [Alternative Front-ends available here](https://github.com/duyfken/alternative-front-ends).
+ⓘ These Redirector Privacy Alternatives are derived from the list of Alternative Front-ends available **[here](https://github.com/duyfken/alternative-front-ends)**.
 
 Import [Redirector.json](https://github.com/duyfken/RedirectorPrivacyAlternatives/blob/main/Redirector.json) into the [Redirector extension](https://github.com/einaregilsson/Redirector) in your Firefox or Chromium based browser to help maintain some of your privacy while enjoying content online.
 

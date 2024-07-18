@@ -1,16 +1,16 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2023-01-21T14:07:49.863Z",
+    "createdAt": "2024-07-18T09:50:02.679Z",
     "redirects": [
         {
-            "description": "Fandom to BreezeWiki (Whatever Social instance)",
+            "description": "Fandom to BreezeWiki (Project Segfault instance)",
             "exampleUrl": "https://rick-astley.fandom.com/wiki/Never_Gonna_Give_You_Up",
-            "exampleResult": "https://nerd.whatever.social/rick-astley/wiki/Never_Gonna_Give_You_Up",
+            "exampleResult": "https://bw.projectsegfau.lt/rick-astley/wiki/Never_Gonna_Give_You_Up",
             "error": null,
             "includePattern": "https://*.fandom.com/wiki/*",
             "excludePattern": "https://www.fandom.com/*",
             "patternDesc": "",
-            "redirectUrl": "https://nerd.whatever.social/$1/wiki/$2",
+            "redirectUrl": "https://bw.projectsegfau.lt/$1/wiki/$2",
             "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -19,15 +19,15 @@
                 "main_frame"
             ]
         },
-          {
-            "description": "Genius to dumb (Whatever Social instance)",
+        {
+            "description": "Genius to dumb (PrivacyDev instance)",
             "exampleUrl": "https://genius.com/Rick-astley-never-gonna-give-you-up-lyrics",
-            "exampleResult": "https://sing.whatever.social/Rick-astley-never-gonna-give-you-up-lyrics",
+            "exampleResult": "https://dumb.privacydev.net/Rick-astley-never-gonna-give-you-up-lyrics",
             "error": null,
             "includePattern": "https?:\\/\\/(www\\.)?genius\\.com\\/(.*)",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://sing.whatever.social/$2",
+            "redirectUrl": "https://dumb.privacydev.net/$2",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -105,11 +105,28 @@
             ]
         },
         {
+            "description": "Google Translate to Mozhi (Project Segfault instance)",
+            "exampleUrl": "https://translate.google.com/?sl=auto&tl=en&text=durka%20durka&op=translate",
+            "exampleResult": "https://translate.projectsegfau.lt/?sl=auto&tl=en&text=durka%20durka&op=translate&engine=all",
+            "error": null,
+            "includePattern": "https://translate.google.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://translate.projectsegfau.lt/$1&engine=all",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
             "description": "IMDb to libremdb (Official instance)",
             "exampleUrl": "https://www.imdb.com/title/tt4654462/",
             "exampleResult": "https://libremdb.iket.me/title/tt4654462/",
             "error": null,
-            "includePattern": "https?:\\/\\/(www\\.)?imdb\\.com\\/title/(.*)",
+            "includePattern": "https?:\\/\\/(www\\.)?imdb\\.com\\/(.*)",
             "excludePattern": "",
             "patternDesc": "",
             "redirectUrl": "https://libremdb.iket.me/$2",
@@ -245,14 +262,14 @@
             ]
         },
         {
-            "description": "Quora to Quetre (Official instance)",
+            "description": "Quora to Quetre (PrivacyDev instance)",
             "exampleUrl": "https://www.quora.com/What-is-Linux-4",
-            "exampleResult": "https://quetre.iket.me/What-is-Linux-4",
+            "exampleResult": "https://quetre.privacydev.net/What-is-Linux-4",
             "error": null,
             "includePattern": "https?:\\/\\/(www\\.)?quora\\.com\\/([^\\?]*)",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://quetre.iket.me/$2",
+            "redirectUrl": "https://quetre.privacydev.net/$2",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -262,14 +279,14 @@
             ]
         },
         {
-            "description": "Reddit to Libreddit (SafeReddit instance)",
+            "description": "Reddit to Redlib (Project Segfault instance)",
             "exampleUrl": "https://i.redd.it/r/rickroll/comments/i4ulh0/a_long_list_of_rick_roll_links/",
-            "exampleResult": "https://safereddit.com/r/rickroll/comments/i4ulh0/a_long_list_of_rick_roll_links/",
+            "exampleResult": "https://libreddit.projectsegfau.lt/r/rickroll/comments/i4ulh0/a_long_list_of_rick_roll_links/",
             "error": null,
             "includePattern": "^https?:\\/{2}(www\\.|old\\.|np\\.|new\\.|amp\\.|)reddit\\.com\\/([^\\?]*)|^https?:\\/{2}(i\\.|v\\.|preview\\.)redd\\.it\\/([^\\?]*)",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://safereddit.com/$2$4",
+            "redirectUrl": "https://libreddit.projectsegfau.lt/$2$4",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -279,14 +296,14 @@
             ]
         },
         {
-            "description": "StackOverflow to AnonymousOverflow (Whatever Social instance)",
+            "description": "StackOverflow to AnonymousOverflow (Project Segfault instance)",
             "exampleUrl": "https://stackoverflow.com/questions/43743250/using-libsodium-xchacha20-poly1305-for-large-files",
-            "exampleResult": "https://code.whatever.social/questions/43743250/using-libsodium-xchacha20-poly1305-for-large-files",
+            "exampleResult": "https://overflow.projectsegfau.lt/questions/43743250/using-libsodium-xchacha20-poly1305-for-large-files",
             "error": null,
             "includePattern": "https://stackoverflow.com/*",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://code.whatever.social/$1",
+            "redirectUrl": "https://overflow.projectsegfau.lt/$1",
             "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -314,6 +331,57 @@
             ]
         },
         {
+            "description": "Tumblr to Priviblur (Project Segfault instance)",
+            "exampleUrl": "https://www.tumblr.com/tagged/rick%20astley",
+            "exampleResult": "https://priviblur.projectsegfau.lt/tagged/rick%20astley",
+            "error": null,
+            "includePattern": "^https?:\\/\\/(www\\.)?tumblr\\.com\\/([^\\\\?]*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://priviblur.projectsegfau.lt/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Tumblr to Priviblur - Blogs (Project Segfault instance)",
+            "exampleUrl": "https://itsarickroll.tumblr.com/",
+            "exampleResult": "https://priviblur.projectsegfau.lt/itsarickroll",
+            "error": null,
+            "includePattern": "^https?:\\/\\/((?:\\w+(?:-\\w+)*\\.)*)((?!www\\.|media\\.)\\w+(?:-\\w+)*)\\.tumblr\\.com\\/([^\\\\?]*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://priviblur.projectsegfau.lt/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Tumblr to Priviblur - Media Assets (Project Segfault instance)",
+            "exampleUrl": "https://64.media.tumblr.com/c6a796b22690c9966c33ae8294d1ec5d/27e9417b8fc4e5ca-9b/s640x960/b514ff8f6f4e1a7de0b69af44725655c84b41ccb.jpg",
+            "exampleResult": "https://priviblur.projectsegfau.lt/tblr/media/64/c6a796b22690c9966c33ae8294d1ec5d/27e9417b8fc4e5ca-9b/s640x960/b514ff8f6f4e1a7de0b69af44725655c84b41ccb.jpg ",
+            "error": null,
+            "includePattern": "^https?:\\/\\/([0-9]+)\\.media\\.tumblr\\.com\\/([^\\\\?]*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://priviblur.projectsegfau.lt/tblr/media/$1/$2 ",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
             "description": "Twitch to SafeTwitch (Project Segfault instance)",
             "exampleUrl": "https://www.twitch.tv/ogrickastley",
             "exampleResult": "https://safetwitch.projectsegfau.lt/ogrickastley",
@@ -331,14 +399,14 @@
             ]
         },
         {
-            "description": "Twitter to Nitter (Official instance)",
+            "description": "Twitter to Nitter (X Cancelled instance)",
             "exampleUrl": "https://twitter.com/rickastley/status/1552237188494008321",
-            "exampleResult": "https://nitter.net/rickastley/status/1552237188494008321",
+            "exampleResult": "https://xcancel.com/rickastley/status/1552237188494008321",
             "error": null,
             "includePattern": "^https?:\\/{2}(www\\.|mobile\\.|)twitter\\.com\\/([^\\?]*)|^https?:\\/{2}(pbs\\.|video\\.|)twimg\\.com\\/([^\\?]*)|^https?:\\/{2}platform\\.twitter\\.com\\/embed\\/([^\\?]*)",
             "excludePattern": "",
             "patternDesc": "Includes embeds - Disable iframes to disable embeds",
-            "redirectUrl": "https://nitter.net/$1$2$3$4$5",
+            "redirectUrl": "https://xcancel.com/$1$2$3$4$5",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,

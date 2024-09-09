@@ -313,14 +313,14 @@
             ]
         },
         {
-            "description": "TikTok to ProxiTok (Whatever Social instance)",
+            "description": "TikTok to ProxiTok (Official instance)",
             "exampleUrl": "https://www.tiktok.com/@rickastleyofficial/video/6890858524092402946",
-            "exampleResult": "https://cringe.whatever.social/@rickastleyofficial/video/6890858524092402946",
+            "exampleResult": "https://proxitok.pabloferreiro.es/@rickastleyofficial/video/6890858524092402946",
             "error": null,
             "includePattern": "(.*//.*)(tiktok.com)(.*)",
             "excludePattern": "",
             "patternDesc": "Includes embeds - Disable iframes to disable embeds",
-            "redirectUrl": "https://cringe.whatever.social$3",
+            "redirectUrl": "https://proxitok.pabloferreiro.es$3",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,

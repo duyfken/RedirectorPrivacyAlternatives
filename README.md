@@ -1,9 +1,11 @@
 # Redirector Privacy Alternatives
 Redirect Big Tech links to privacy aware alternatives using Redirector rules.
 
-ⓘ These Redirector Privacy Alternatives are derived from the list of Alternative Front-ends available **[here](../../../../duyfken/alternative-front-ends)**.
+[<img src="https://img.shields.io/badge/Codeberg-2185D0?logo=Codeberg&logoColor=white">](https://codeberg.org/duyfken/RedirectorPrivacyAlternatives) [<img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white">](https://github.com/duyfken/RedirectorPrivacyAlternatives)
 
-Import [Redirector.json](../..//blob/main/Redirector.json) into the [Redirector extension](https://github.com/einaregilsson/Redirector) in your Firefox or Chromium based browser to help maintain some of your privacy while enjoying content online.
+ⓘ These Redirector Privacy Alternatives are derived from the list of Alternative Front-ends available **[here](../../../../../duyfken/alternative-front-ends)**.
+
+Import [Redirector.json](../../blob/main/Redirector.json) into the [Redirector extension](https://github.com/einaregilsson/Redirector) in your Firefox or Chromium based browser to help maintain some of your privacy while enjoying content online.
 
 | Original Website  | Privacy alternative used | Instance used
 | ------------- | ------------- | ------------- |

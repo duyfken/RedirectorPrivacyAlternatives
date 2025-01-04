@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2024-07-18T09:50:02.679Z",
+    "createdAt": "2025-01-04T09:21:10.225Z",
     "redirects": [
         {
             "description": "Fandom to BreezeWiki (Project Segfault instance)",
@@ -20,14 +20,14 @@
             ]
         },
         {
-            "description": "Genius to dumb (PrivacyDev instance)",
+            "description": "Genius to dumb (Official instance)",
             "exampleUrl": "https://genius.com/Rick-astley-never-gonna-give-you-up-lyrics",
-            "exampleResult": "https://dumb.privacydev.net/Rick-astley-never-gonna-give-you-up-lyrics",
+            "exampleResult": "https://dm.vern.cc/Rick-astley-never-gonna-give-you-up-lyrics",
             "error": null,
             "includePattern": "https?:\\/\\/(www\\.)?genius\\.com\\/(.*)",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://dumb.privacydev.net/$2",
+            "redirectUrl": "https://dm.vern.cc/$2",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -88,14 +88,14 @@
             ]
         },
         {
-            "description": "Google to Whoogle (SethForPrivacy instance)",
+            "description": "Google to SearXNG (priv.au instance)",
             "exampleUrl": "https://www.google.com.au/search?q=hi",
-            "exampleResult": "https://search.sethforprivacy.com/search?q=hi",
+            "exampleResult": "https://priv.au/search?q=hi",
             "error": null,
             "includePattern": "https?:\\/\\/(((?:www|m)\\.)?google.).*\\/(search\\?q=([\\w\\-]+)(\\S+))?$",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://search.sethforprivacy.com/$3",
+            "redirectUrl": "https://priv.au/$3",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -279,14 +279,14 @@
             ]
         },
         {
-            "description": "Reddit to Redlib (Project Segfault instance)",
+            "description": "Reddit to Redlib (random instance using fastsi.de)",
             "exampleUrl": "https://i.redd.it/r/rickroll/comments/i4ulh0/a_long_list_of_rick_roll_links/",
-            "exampleResult": "https://libreddit.projectsegfau.lt/r/rickroll/comments/i4ulh0/a_long_list_of_rick_roll_links/",
+            "exampleResult": "https://fastsi.de/libreddit/r/rickroll/comments/i4ulh0/a_long_list_of_rick_roll_links/",
             "error": null,
             "includePattern": "^https?:\\/{2}(www\\.|old\\.|np\\.|new\\.|amp\\.|)reddit\\.com\\/([^\\?]*)|^https?:\\/{2}(i\\.|v\\.|preview\\.)redd\\.it\\/([^\\?]*)",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://libreddit.projectsegfau.lt/$2$4",
+            "redirectUrl": "https://fastsi.de/libreddit/$2$4",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -323,7 +323,7 @@
             "redirectUrl": "https://proxitok.pabloferreiro.es$3",
             "patternType": "R",
             "processMatches": "noProcessing",
-            "disabled": false,
+            "disabled": true,
             "grouped": false,
             "appliesTo": [
                 "main_frame",
@@ -434,6 +434,24 @@
             ]
         },
         {
+            "description": "Youtube to FreeTube",
+            "exampleUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "exampleResult": "freetube://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "error": null,
+            "includePattern": "^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube(-nocookie)?\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$",
+            "excludePattern": "",
+            "patternDesc": "Includes embeds - Disable iframes to disable embeds - Choose instance in on-site Preferences",
+            "redirectUrl": "freetube://$2$3$4$5$6$7",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "sub_frame"
+            ]
+        },
+        {
             "description": "Youtube to Piped (Official instance)",
             "exampleUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
             "exampleResult": "https://piped.video/watch?v=dQw4w9WgXcQ",
@@ -452,17 +470,17 @@
             ]
         },
         {
-            "description": "Youtube to Invidious (Project Segfault instance)",
+            "description": "Youtube to Invidious (random instance using fastsi.de)",
             "exampleUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "exampleResult": "https://invidious.projectsegfau.lt/watch?v=dQw4w9WgXcQ",
+            "exampleResult": "https://fastsi.de/invidious/watch?v=dQw4w9WgXcQ",
             "error": null,
             "includePattern": "^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube(-nocookie)?\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$",
             "excludePattern": "",
             "patternDesc": "Includes embeds - Disable iframes to disable embeds",
-            "redirectUrl": "https://invidious.projectsegfau.lt$5$6$7",
+            "redirectUrl": "https://fastsi.de/invidious$5$6$7",
             "patternType": "R",
             "processMatches": "noProcessing",
-            "disabled": false,
+            "disabled": true,
             "grouped": false,
             "appliesTo": [
                 "main_frame",

@@ -313,6 +313,24 @@
             ]
         },
         {
+            "description": "TikTok to StickTock (Official instance)",
+            "exampleUrl": "https://www.tiktok.com/@rickastleyofficial/video/6890858524092402946",
+            "exampleResult": "https://sticktock.com//@rickastleyofficial/video/6890858524092402946",
+            "error": null,
+            "includePattern": "(.*//.*)(tiktok.com)(.*)",
+            "excludePattern": "",
+            "patternDesc": "Includes embeds - Disable iframes to disable embeds",
+            "redirectUrl": "https://sticktock.com/$3",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "sub_frame"
+            ]
+        },
+        {
             "description": "TikTok to ProxiTok (Official instance)",
             "exampleUrl": "https://www.tiktok.com/@rickastleyofficial/video/6890858524092402946",
             "exampleResult": "https://proxitok.pabloferreiro.es/@rickastleyofficial/video/6890858524092402946",

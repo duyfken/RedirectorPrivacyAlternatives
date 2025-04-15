@@ -23,6 +23,7 @@ Instances used are examples only (chosen for uptime history primarily). Changing
 | Odysee | [Librarian](https://codeberg.org/librarian/librarian)  | https://lbry.projectsegfau.lt/ |
 | Quora | [Quetre](https://github.com/zyachel/quetre)  | https://quetre.privacydev.net/ |
 | Reddit | [Redlib](https://github.com/redlib-org/redlib)  | https://fastsi.de/libreddit |
+| SoundCloud | [soundcloak](https://git.maid.zone/stuff/soundcloak)  | [Official Instance](https://sc.maid.zone/) |
 | StackOverflow | [AnonymousOverflow](https://github.com/httpjamesm/AnonymousOverflow)  | https://overflow.projectsegfau.lt/ |
 | TikTok | [StickTock](https://github.com/PrivacySafe/sticktock)  | [Official Instance](https://sticktock.com/) |
 | Tumblr | [Priviblur](https://github.com/syeopite/priviblur)  | https://priviblur.projectsegfau.lt/ |

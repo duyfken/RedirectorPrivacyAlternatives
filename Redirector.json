@@ -296,6 +296,23 @@
             ]
         },
         {
+            "description": "SoundCloud to soundcloak (Official instance)",
+            "exampleUrl": "https://soundcloud.com/rick-astley-official/never-gonna-give-you-up-4",
+            "exampleResult": "https://sc.maid.zone/rick-astley-official/never-gonna-give-you-up-4",
+            "error": null,
+            "includePattern": "https://soundcloud.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://sc.maid.zone/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
             "description": "StackOverflow to AnonymousOverflow (Project Segfault instance)",
             "exampleUrl": "https://stackoverflow.com/questions/43743250/using-libsodium-xchacha20-poly1305-for-large-files",
             "exampleResult": "https://overflow.projectsegfau.lt/questions/43743250/using-libsodium-xchacha20-poly1305-for-large-files",

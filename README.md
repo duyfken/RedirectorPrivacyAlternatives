@@ -41,4 +41,3 @@ Also included are the following (disabled) alternate options:
 | TikTok | [ProxiTok](https://github.com/pablouser1/ProxiTok)  | [Official Instance](https://proxitok.pabloferreiro.es/) |
 | Youtube | [Invidious](https://github.com/iv-org/invidious)  | https://fastsi.de/invidious/ |
 | Youtube | [Piped](https://github.com/TeamPiped/Piped)  | [Official Frontend Instance](https://piped.video) |
-| Youtube Music | [Hyperpipe](https://codeberg.org/Hyperpipe/Hyperpipe)  | [Official Instance](https://hyperpipe.surge.sh/) |

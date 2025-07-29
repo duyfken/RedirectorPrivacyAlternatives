@@ -538,23 +538,6 @@
             "appliesTo": [
                 "main_frame"
             ]
-        },
-        {
-            "description": "Youtube Music to Hyperpipe (Official instance)",
-            "exampleUrl": "https://music.youtube.com/channel/UCwZEU0wAwIyZb4x5G_KJp2w",
-            "exampleResult": "https://hyperpipe.surge.sh/channel/UCwZEU0wAwIyZb4x5G_KJp2w",
-            "error": null,
-            "includePattern": "https://music.youtube.com/*",
-            "excludePattern": "",
-            "patternDesc": "",
-            "redirectUrl": "https://hyperpipe.surge.sh/$1",
-            "patternType": "W",
-            "processMatches": "noProcessing",
-            "disabled": true,
-            "grouped": false,
-            "appliesTo": [
-                "main_frame"
-            ]
         }
     ]
 }

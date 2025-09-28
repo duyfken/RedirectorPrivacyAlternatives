@@ -7,7 +7,7 @@ Redirect Big Tech links to privacy aware alternatives using Redirector rules.
 
 Import [Redirector.json](../../blob/main/Redirector.json) into the [Redirector extension](https://github.com/einaregilsson/Redirector) in your Firefox or Chromium based browser to help maintain some of your privacy while enjoying content online.
 
-Instances used are examples only (chosen for uptime history primarily). Changing instance links to use https://fastsi.de/ is recommended, to ensure you are always redirected to a live instance. Some services such as Reddit/Youtube, I have farsi.de as the default to avoid Reddit/Youtube rate-limiting/blocking instances.
+Instances used are examples only (chosen for uptime history primarily). Changing instance links to use https://fastsi.de/ is recommended, to ensure you are always redirected to a live instance. Some services such as Reddit/Youtube, I have fastsi.de as the default to avoid Reddit/Youtube rate-limiting/blocking instances.
 
 | Original Website  | Privacy alternative used | Instance used
 | ------------- | ------------- | ------------- |

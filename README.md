@@ -11,25 +11,26 @@ Instances used are examples only (chosen for uptime history primarily). Changing
 
 | Original Website  | Privacy alternative used | Instance used
 | ------------- | ------------- | ------------- |
-| Fandom | [BreezeWiki](https://gitdab.com/cadence/breezewiki)  | https://bw.projectsegfau.lt/ |
+| Bluesky | [Skylib](https://codeberg.org/bg443/skylib-backend)  | [Official Instance](https://skylib.coffee/) |
+| Fandom | [BreezeWiki](https://gitdab.com/cadence/breezewiki)  | [Official Instance](https://breezewiki.com/) |
 | Genius | [dumb](https://github.com/rramiachraf/dumb)  | [Official Instance](https://dm.vern.cc/) |
 | Goodreads | [BiblioReads](https://github.com/nesaku/BiblioReads)  | [Official Instance](https://biblioreads.eu.org/) |
 | Google Search | [SearXNG](https://github.com/searxng/searxng)  | https://priv.au/ |
-| Google Translate | [Mozhi](https://codeberg.org/aryak/mozhi)  | https://translate.projectsegfau.lt/ |
+| Google Translate | [TransLite](https://codeberg.org/gospodin/translite)  | https://t.opnxng.com/ |
 | IMDb | [libremdb](https://github.com/zyachel/libremdb)  | [Official Instance](https://libremdb.iket.me/) |
-| Imgur | [Rimgo](https://codeberg.org/video-prize-ranch/rimgo)  | https://rimgo.projectsegfau.lt/ |
-| Instagram | [Imgsed](https://imgsed.com/) | N/A |
+| Imgur | [Rimgo](https://codeberg.org/video-prize-ranch/rimgo)  | https://r.opnxng.com |
+| Instagram | [Imginn](https://imginn.com/) | N/A |
 | Medium | [Scribe](https://sr.ht/~edwardloveall/Scribe/)  | [Official Instance](https://scribe.rip/) |
-| Odysee | [Librarian](https://codeberg.org/librarian/librarian)  | https://lbry.projectsegfau.lt/ |
-| Quora | [Quetre](https://github.com/zyachel/quetre)  | https://quetre.privacydev.net/ |
-| Reddit | [Redlib](https://github.com/redlib-org/redlib)  | https://fastsi.de/libreddit |
+| Quora | [Quetre](https://github.com/zyachel/quetre)  | https://fastsi.de/quetre/ |
+| Reddit | [Redlib](https://github.com/redlib-org/redlib)  | https://farside.link/redlib/ |
 | SoundCloud | [soundcloak](https://git.maid.zone/stuff/soundcloak)  | [Official Instance](https://sc.maid.zone/) |
-| StackOverflow | [AnonymousOverflow](https://github.com/httpjamesm/AnonymousOverflow)  | https://overflow.projectsegfau.lt/ |
+| StackOverflow | [AnonymousOverflow](https://github.com/httpjamesm/AnonymousOverflow)  | https://a.opnxng.com/ |
 | TikTok | [StickTock](https://github.com/PrivacySafe/sticktock)  | [Official Instance](https://sticktock.com/) |
-| Tumblr | [Priviblur](https://github.com/syeopite/priviblur)  | https://priviblur.projectsegfau.lt/ |
-| Twitch | [SafeTwitch](https://codeberg.org/dragongoose/safetwitch)  | https://safetwitch.projectsegfau.lt/ |
+| Tumblr | [Priviblur](https://github.com/syeopite/priviblur)  | https://tb.opnxng.com/ |
+| Twitch | [SafeTwitch](https://codeberg.org/dragongoose/safetwitch)  | https://fastsi.de/safetwitch/ |
 | Twitter | [Nitter](https://github.com/zedeus/nitter)  | https://xcancel.com/ |
 | Urban Dictionary | [Rural Dictionary](https://codeberg.org/zortazert/rural-dictionary)  | [Official Instance](https://rd.vern.cc/) |
+| Wikipedia | [Wikiless](https://github.com/Metastem/wikiless)  | https://wikiless.canine.tools/ |
 | Youtube | [FreeTube](https://github.com/FreeTubeApp/FreeTube)  | [PC App](https://freetubeapp.io/#download) |
 | Youtube Music | [Beatbump](https://github.com/snuffyDev/Beatbump)  | [Official Instance](https://beatbump.io/) |
 
@@ -37,7 +38,6 @@ Also included are the following (disabled) alternate options:
 
 | Original Website  | Privacy alternative used | Instance used
 | ------------- | ------------- | ------------- |
-| Medium | [LibMedium](https://github.com/realaravinth/libmedium)  | [Official Instance](https://libmedium.batsense.net/) |
 | TikTok | [ProxiTok](https://github.com/pablouser1/ProxiTok)  | [Official Instance](https://proxitok.pabloferreiro.es/) |
 | Youtube | [Invidious](https://github.com/iv-org/invidious)  | https://fastsi.de/invidious/ |
 | Youtube | [Piped](https://github.com/TeamPiped/Piped)  | [Official Frontend Instance](https://piped.video) |

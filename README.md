@@ -30,9 +30,12 @@ Instances used are examples only (chosen for uptime history primarily). Changing
 | Twitch | [SafeTwitch](https://codeberg.org/dragongoose/safetwitch)  | https://fastsi.de/safetwitch/ |
 | Twitter | [Nitter](https://github.com/zedeus/nitter)  | https://xcancel.com/ |
 | Urban Dictionary | [Rural Dictionary](https://codeberg.org/zortazert/rural-dictionary)  | [Official Instance](https://rd.vern.cc/) |
-| Wikipedia | [Wikiless](https://github.com/Metastem/wikiless)  | https://wikiless.canine.tools/ |
+| Wikipedia | [Wikimore](https://git.private.coffee/privatecoffee/wikimore)  | [Official Instance](https://wikimore.private.coffee/) |
 | Youtube | [FreeTube](https://github.com/FreeTubeApp/FreeTube)  | [PC App](https://freetubeapp.io/#download) |
 | Youtube Music | [Beatbump](https://github.com/snuffyDev/Beatbump)  | [Official Instance](https://beatbump.io/) |
+
+> [!NOTE]
+> Wikimore can be used for all Wikimedia projects, not just Wikipedia. So feel free to duplicate the Wikipedia Redirects and adjust the title/URLs to use it easily with Wiktionary, Wikibooks, Wikinews, Wikiquote, Wikisource, Wikiversity or Wikivoyage.
 
 Also included are the following (disabled) alternate options:
 

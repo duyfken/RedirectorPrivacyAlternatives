@@ -451,15 +451,32 @@
             ]
         },
         {
-            "description": "Wikipedia to Wikiless (canine.tools instance)",
-            "exampleUrl": "https://en.wikipedia.org/wiki/Never_Gonna_Give_You_Up",
-            "exampleResult": "https://wikiless.canine.tools/wiki/Never_Gonna_Give_You_Up?lang=en",
+            "description": "Wikipedia to Wikimore - Searches (Official instance)",
+            "exampleUrl": "https://en.wikipedia.org/wiki/Special:Search?search=Never%20Gonna%20Give%20You%20Up&go=Go&ns0=1",
+            "exampleResult": "https://wikimore.private.coffee/wiki/en/search/Never%20Gonna%20Give%20You%20Up",
             "error": null,
-            "includePattern": "https://*.wikipedia.org/wiki/*",
+            "includePattern": "^https:\\/\\/([^&]+)\\.wikipedia\\.org\\/wiki\\/Special:Search\\?search=([^&]+).*$",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://wikiless.canine.tools/wiki/$2?lang=$1",
-            "patternType": "W",
+            "redirectUrl": "https://wikimore.private.coffee/wiki/$1/search/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Wikipedia to Wikimore - Pages (Official instance)",
+            "exampleUrl": "https://en.wikipedia.org/wiki/Never_Gonna_Give_You_Up",
+            "exampleResult": "https://wikimore.private.coffee/wiki/en/wiki/Never_Gonna_Give_You_Up",
+            "error": null,
+            "includePattern": "^https:\\/\\/([^&]+)\\.wikipedia\\.org\\/wiki\\/(.+)$",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://wikimore.private.coffee/wiki/$1/wiki/$2",
+            "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
             "grouped": false,

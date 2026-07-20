@@ -192,14 +192,14 @@
             ]
         },
         {
-            "description": "Instagram Image to Imginn",
+            "description": "Instagram Image to Kittygram (Official instance)",
             "exampleUrl": "https://www.instagram.com/p/CnhlNzNIavJ/",
-            "exampleResult": "https://imginn.com/p/CnhlNzNIavJ",
+            "exampleResult": "https://kittygram.irelephant.net/p/CnhlNzNIavJ",
             "error": null,
             "includePattern": "(?<!^https\\:\\/\\/www\\.google\\.com\\/imgres\\?imgurl.*)(?:https?\\:\\/\\/)?(?:www\\.)?(?:instagram\\.com|instagr\\.am|next\\=)(?:(?:\\/|%2f)p|(?:\\/|%2f)reel)(?:\\/|%2f)([a-zA-Z._0-9-]+)",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://imginn.com/p/$1",
+            "redirectUrl": "https://kittygram.irelephant.net/p/$1",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -209,14 +209,14 @@
             ]
         },
         {
-            "description": "Instagram Profile to Imginn",
+            "description": "Instagram Profile to Kittygram (Official instance)",
             "exampleUrl": "https://www.instagram.com/officialrickastley/",
-            "exampleResult": "https://imginn.com/officialrickastley",
+            "exampleResult": "https://kittygram.irelephant.net/officialrickastley",
             "error": null,
             "includePattern": "(?<!^https\\:\\/\\/www\\.google\\.com\\/imgres\\?imgurl.*)(?:https?\\:\\/\\/)?(?:www\\.)?(?<!help\\.|api\\.|business\\.|about\\.|lookaside\\.)(?:instagram\\.com|instagr\\.am|next=)(?:\\/|%2f)(?!accounts|explore|developer|reel)([a-zA-Z._0-9]{3,})",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://imginn.com/$1",
+            "redirectUrl": "https://kittygram.irelephant.net/$1",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -226,14 +226,14 @@
             ]
         },
         {
-            "description": "Medium to Scribe (Official instance)",
+            "description": "Medium to Small (Official instance)",
             "exampleUrl": "https://medium.com/@RSilvaEID100/bait-and-switch-what-you-need-to-know-about-rick-rolling-829c0ea20b46",
-            "exampleResult": "https://scribe.rip/@RSilvaEID100/bait-and-switch-what-you-need-to-know-about-rick-rolling-829c0ea20b46",
+            "exampleResult": "https://small.private.coffee/@RSilvaEID100/bait-and-switch-what-you-need-to-know-about-rick-rolling-829c0ea20b46",
             "error": null,
             "includePattern": "^https?://(?:.*\\.)*(?<!(link\\.|cdn\\-images\\-\\d+\\.))medium\\.com(/.*)?$",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://scribe.rip$2",
+            "redirectUrl": "https://small.private.coffee$2",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -312,42 +312,6 @@
             ]
         },
         {
-            "description": "TikTok to StickTock (Official instance)",
-            "exampleUrl": "https://www.tiktok.com/@rickastleyofficial/video/6890858524092402946",
-            "exampleResult": "https://sticktock.com//@rickastleyofficial/video/6890858524092402946",
-            "error": null,
-            "includePattern": "(.*//.*)(tiktok.com)(.*)",
-            "excludePattern": "",
-            "patternDesc": "Includes embeds - Disable iframes to disable embeds",
-            "redirectUrl": "https://sticktock.com/$3",
-            "patternType": "R",
-            "processMatches": "noProcessing",
-            "disabled": false,
-            "grouped": false,
-            "appliesTo": [
-                "main_frame",
-                "sub_frame"
-            ]
-        },
-        {
-            "description": "TikTok to ProxiTok (Official instance)",
-            "exampleUrl": "https://www.tiktok.com/@rickastleyofficial/video/6890858524092402946",
-            "exampleResult": "https://proxitok.pabloferreiro.es/@rickastleyofficial/video/6890858524092402946",
-            "error": null,
-            "includePattern": "(.*//.*)(tiktok.com)(.*)",
-            "excludePattern": "",
-            "patternDesc": "Includes embeds - Disable iframes to disable embeds",
-            "redirectUrl": "https://proxitok.pabloferreiro.es$3",
-            "patternType": "R",
-            "processMatches": "noProcessing",
-            "disabled": true,
-            "grouped": false,
-            "appliesTo": [
-                "main_frame",
-                "sub_frame"
-            ]
-        },
-        {
             "description": "Tumblr to Priviblur (opnxng.com instance)",
             "exampleUrl": "https://www.tumblr.com/tagged/rick%20astley",
             "exampleResult": "https://tb.opnxng.com/tagged/rick%20astley",
@@ -391,23 +355,6 @@
             "patternDesc": "",
             "redirectUrl": "https://tb.opnxng.com/tblr/media/$1/$2 ",
             "patternType": "R",
-            "processMatches": "noProcessing",
-            "disabled": false,
-            "grouped": false,
-            "appliesTo": [
-                "main_frame"
-            ]
-        },
-        {
-            "description": "Twitch to SafeTwitch (random instance using fastsi.de)",
-            "exampleUrl": "https://www.twitch.tv/ogrickastley",
-            "exampleResult": "https://fastsi.de/safetwitch/ogrickastley",
-            "error": null,
-            "includePattern": "https://www.twitch.tv/*",
-            "excludePattern": "",
-            "patternDesc": "",
-            "redirectUrl": "https://fastsi.de/safetwitch/$1",
-            "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
             "grouped": false,

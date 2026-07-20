@@ -19,15 +19,13 @@ Instances used are examples only (chosen for uptime history primarily). Changing
 | Google Translate | [TransLite](https://codeberg.org/gospodin/translite)  | https://t.opnxng.com/ |
 | IMDb | [libremdb](https://github.com/zyachel/libremdb)  | [Official Instance](https://libremdb.iket.me/) |
 | Imgur | [Rimgo](https://codeberg.org/video-prize-ranch/rimgo)  | https://r.opnxng.com |
-| Instagram | [Imginn](https://imginn.com/) | N/A |
-| Medium | [Scribe](https://sr.ht/~edwardloveall/Scribe/)  | [Official Instance](https://scribe.rip/) |
+| Instagram | [Kittygram](https://codeberg.org/irelephant/kittygram) | [Official Instance](https://kittygram.irelephant.net/) |
+| Medium | [Small](https://git.private.coffee/PrivateCoffee/small)  | [Official Instance](https://small.private.coffee/) |
 | Quora | [Quetre](https://github.com/zyachel/quetre)  | https://fastsi.de/quetre/ |
 | Reddit | [Redlib](https://github.com/redlib-org/redlib)  | https://farside.link/redlib/ |
 | SoundCloud | [soundcloak](https://git.maid.zone/stuff/soundcloak)  | [Official Instance](https://sc.maid.zone/) |
 | StackOverflow | [AnonymousOverflow](https://github.com/httpjamesm/AnonymousOverflow)  | https://a.opnxng.com/ |
-| TikTok | [StickTock](https://github.com/PrivacySafe/sticktock)  | [Official Instance](https://sticktock.com/) |
 | Tumblr | [Priviblur](https://github.com/syeopite/priviblur)  | https://tb.opnxng.com/ |
-| Twitch | [SafeTwitch](https://codeberg.org/dragongoose/safetwitch)  | https://fastsi.de/safetwitch/ |
 | Twitter | [Nitter](https://github.com/zedeus/nitter)  | https://xcancel.com/ |
 | Urban Dictionary | [Rural Dictionary](https://codeberg.org/zortazert/rural-dictionary)  | [Official Instance](https://rd.vern.cc/) |
 | Wikipedia | [Wikimore](https://git.private.coffee/privatecoffee/wikimore)  | [Official Instance](https://wikimore.private.coffee/) |
@@ -41,6 +39,5 @@ Also included are the following (disabled) alternate options:
 
 | Original Website  | Privacy alternative used | Instance used
 | ------------- | ------------- | ------------- |
-| TikTok | [ProxiTok](https://github.com/pablouser1/ProxiTok)  | [Official Instance](https://proxitok.pabloferreiro.es/) |
 | Youtube | [Invidious](https://github.com/iv-org/invidious)  | https://fastsi.de/invidious/ |
 | Youtube | [Piped](https://github.com/TeamPiped/Piped)  | [Official Frontend Instance](https://piped.video) |
